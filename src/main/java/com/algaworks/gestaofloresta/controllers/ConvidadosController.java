@@ -20,7 +20,7 @@ public class ConvidadosController {
     @PostMapping
     public String salvar(Convidado convidado) {
         this.convidados.save(convidado);
-        return "redirect:/convidados";
+        return "redirect:/";
     }
 
     @GetMapping
