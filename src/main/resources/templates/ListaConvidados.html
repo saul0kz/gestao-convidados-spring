@@ -26,12 +26,14 @@
           class="form-control"
           placeholder="Nome"
           th:field="*{nome}"
+          required
         />
         <input
-          type="text"
+          type="number"
           class="form-control"
           placeholder="Acompanhantes"
-          th:field="*{quantidadeAcompanhantes}"
+          th:field="*{quantidadeAcompanhantes}"        
+          required
         />
         <button type="submit" class="btn btn-primary">Adicionar</button>
       </div>
