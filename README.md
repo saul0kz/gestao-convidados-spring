@@ -1,4 +1,4 @@
-# Read Me First
+# Gerstão De convidados
 Projeto criado seguindo o tutorial da AlgaWorks para O projeto de gestão de
 convidados.
 Configuração do Banco mysql application.properties
